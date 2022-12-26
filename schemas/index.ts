@@ -8,4 +8,4 @@ import workExperience from './workExperience';
 import contact from './contact';
 import workSortCategories from "./workSortCategories";
 
-export const schemaTypes = [testimonials, workSortCategories, works, brands, abouts, experiences, skills,workExperience,contact] // put every schema types you created into the list
+export const schemaTypes = [testimonials, workSortCategories, works, brands, abouts, experiences, skills, workExperience,contact] // put every schema types you created into the list

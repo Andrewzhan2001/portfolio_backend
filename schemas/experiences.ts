@@ -6,13 +6,15 @@ export default{
         {
             name:'year',
             title:'Year',
-            type:'string'
+            type:'string',
+            validation: Rule => Rule.required()
         },
         {
             name:'works',
             title:'Works',
             type:'array',
-            of:[{ type:'workExperience'}]
+            of:[{ type:'workExperience'}],
+            validation: Rule => Rule.required()
         },
     ]
 }
